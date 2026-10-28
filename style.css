@@ -1,11 +1,41 @@
-/* ==========================================================
-   My section's styles
-   Every page in this section uses this one file.
+body {
+  background: mistyrose;
+  color: darkviolet;
+}
+p {
+  font-family:serif;
+  margin: 10px;
+  font-size: 14px;
+}
+h1 {font-family: sans-serif
+  font-weight:lighter;
+}
 
-   Pages in this main folder link to it with:
-       <link rel="stylesheet" href="style.css">
-   Pages inside warm-ups, classwork, and projects use ../ to go up a folder:
-       <link rel="stylesheet" href="../style.css">
+h2 {font-style: italic;
+  font-weight: lighter;
+}
 
-   We'll write styles here starting Monday.
-   ========================================================== */
+}
+
+h3 { 
+    
+}
+h4 {
+  font-family: sans-serif
+}
+h5 {
+  font-family:serif;
+  text-align: right;
+}
+h6 {
+  font-style: italic;
+}
+
+hr {
+  width: 100%;
+}
+img {
+  width: 300px;
+  border-radius: 20px;
+  margin: 10px;
+}
